@@ -62,7 +62,7 @@ namespace Gazi.KazanMyo.Sube2.DongulerApp
             //Depo-Repository
             for (int i = sayi1; i <= sayi2; i++)
             {
-                if (i % 2 == sonuc)
+                if (i % 2 == sonuc)//
                 {
                     Console.WriteLine(i);
                     toplam = toplam + i;
